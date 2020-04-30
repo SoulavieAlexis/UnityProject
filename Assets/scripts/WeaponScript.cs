@@ -25,11 +25,11 @@ public class WeaponScript : MonoBehaviour
     // 2 - Rechargement
     //--------------------------------
 
-    private float shootCooldown;
+    public float shootCooldown = 0f;
 
     void Start()
     {
-        shootCooldown = 0f;
+        
     }
 
     void Update()
